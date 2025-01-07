@@ -2,3 +2,4 @@ streamlit==1.40.1
 requests==2.32.2
 elevenlabs==1.50.3
 python-dotenv==1.0.1
+pydub==0.25.1
