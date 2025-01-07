@@ -3,7 +3,6 @@ services:
     name: Agensense
     env: python
     buildCommand: |
-      apt-get update && apt-get install -y portaudio19-dev
+      apt-get update && apt-get install -y portaudio19-dev gcc libasound2-dev
       pip install -r requirements.txt
     startCommand: python -m streamlit run Agent.py
-
