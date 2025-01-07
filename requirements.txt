@@ -3,5 +3,5 @@ requests==2.32.2
 elevenlabs==1.50.3
 python-dotenv==1.0.1
 pydub
-pyaudio==0.2.11
+pyaudio==0.2.14
 
